@@ -25,7 +25,7 @@ This project includes the following features:
 
 - Detects changes in phone orientation (face up/face down) to switch from DND mode to normal ringing mode.
 - Displays whether the phone is in DND mode or not in the website.
-- Automatically updates the DND status in real-time.
+- Automatically updates the DND status in real-time database.
 
 
 ## Contributing
