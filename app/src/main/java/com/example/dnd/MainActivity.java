@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                         .setValue(z1);
                 FirebaseDatabase.getInstance().getReference().child("Proximity")
                         .setValue(nearOrFar);
+                //checking if in dnd and updating databse 
                 if( nearOrFar == 1 && z1 <= -7 && z1 >= -12  && am.getRingerMode()!=AudioManager.RINGER_MODE_VIBRATE){
                     am.setRingerMode(AudioManager.RINGER_MODE_VIBRATE);
                     Toast.makeText(MainActivity.this, "Done Done Done", Toast.LENGTH_SHORT).show();
