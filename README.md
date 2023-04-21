@@ -1,5 +1,6 @@
 # RedBus-Hackathon-Project
-An Android application that collects data from the motion sensors of a Mobile device and displays it in a Graphical User Interface. The app detects the motion using the accelerometer and proximity sensor classes of Java and displays the fluctuating X-,Y- and Z- axes when the mobile device is being kept face down and face up, mkaing it switch from DND (Do Not Disturb) mode to normal ringing mode. This project is built using Android Studio, Firebase as the back-end and HTML & CSS for the front-end.
+An Android application that collects data from the motion sensors of a Mobile device and displays it in a Graphical User Interface. The app detects the motion using the accelerometer and proximity sensor classes of Java and displays the fluctuating X-,Y- and Z- axes when the mobile device is being kept face down and face up, making it switch from DND (Do Not Disturb) mode to normal ringing mode. This project is built using Android Studio, Firebase as the back-end and HTML & CSS for the front-end.
+
 ## Getting Started
 
 To get started with this project, you'll need to follow these steps:
@@ -9,12 +10,6 @@ To get started with this project, you'll need to follow these steps:
 3. Create a Firebase project in the Firebase console.
 4. Add the `google-services.json` file to your project by following the Firebase setup instructions.
 5. Build and run the project.
-
-## Features
-
-This project includes the following features:
-
-- [ ] Feature 1
 
 
 ## Dependencies
