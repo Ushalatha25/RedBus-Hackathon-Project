@@ -10,13 +10,22 @@ To get started with this project, you'll need to follow these steps:
 3. Create a Firebase project in the Firebase console.
 4. Add the `google-services.json` file to your project by following the Firebase setup instructions.
 5. Build and run the project.
-
+6.Navigate to the `Web Part of The Project` directory.
+- Open the index.html file in your web browser.
+- Make sure that you add your config in app.js file. 
 
 ## Dependencies
 
 This project uses the following dependencies:
 
 - Firebase Realtime Database
+
+## Features
+This project includes the following features:
+
+- Detects changes in phone orientation (face up/face down) to switch from DND mode to normal ringing mode.
+- Displays whether the phone is in DND mode or not in the website.
+- Automatically updates the DND status in real-time.
 
 
 ## Contributing
